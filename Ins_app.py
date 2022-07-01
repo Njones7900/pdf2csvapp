@@ -36,7 +36,7 @@ if input_pdf is not None:
     f.close()
 
     # Read the pdf with Tabula and convert to csv
-    tabula.convert_into(input_pdf, "tabula.csv", output_format="csv", pages="all", area=(122.018, 72.293, 721.013,
+    tabula.io.convert_into(input_pdf, "tabula.csv", output_format="csv", pages="all", area=(122.018, 72.293, 721.013,
                                                                                          538.943))
     #  Convert csv to df
     df = pd.read_csv("tabula.csv")
