@@ -6,7 +6,7 @@ import base64  # byte object into a pdf file
 import uuid
 import pandas as pd
 import tabula
-from tabula import convert_into
+from tabula.io import convert_into
 import tabulate
 
 
