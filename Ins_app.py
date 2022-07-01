@@ -3,7 +3,6 @@ import subprocess  # process in the os
 from subprocess import STDOUT, check_call  # os process manipulation
 import os  # os process manipulation
 import base64  # byte object into a pdf file
-import camelot as cam
 import uuid
 import pandas as pd
 import tabula
