@@ -7,7 +7,6 @@ import uuid
 import pandas as pd
 import tabula
 import tabulate
-from sqlalchemy import Float
 
 
 @st.cache
